@@ -1,6 +1,6 @@
-# coc134cfeb34f8a57fca78564
+# HOME-TOWN-WEBSITE
 
-Quick start:
+VIEW LIVE SITE [HERE](https://home-town-sigma.vercel.app/)
 
 ```
 $ npm install
