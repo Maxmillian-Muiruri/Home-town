@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+#header {
+  background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/17/3d/c1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+}
+#start {
+  background: lightblue;
+  padding: 5px 7px 5px 7px;
+  margin-top: 25vh;
+  text-align: center;
+}
+#description {
+  background: #023047;
+  padding: 10px 6px;
+  height: 39px;
+  left: 182px;
+}
+.one,
+.img1 {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  color: #8c1c13;
+}
+
+.two,
+.img2 {
+  border-radius: 100%;
+  width: 200px;
+  color: #ff0000;
+}
+
+.three,
+.img3 {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  color: #be0aff;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-evenly;
+}
+.items {
+  display: flex;
+  width: 439px;
+  height: 20px;
+  left: 140px;
+  top: 39px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  padding: 10px 20px 50px 20px;
+  margin: auto;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rem;
+  transform: translate(50%, -50%);
+  background: #a9def9;
+  /* text-align: center;
+  flex-wrap: wrap; */
+  gap: 2;
+  border-radius: 20px;
+  box-shadow: 0px 6px 0px #1d3557;
+  max-width: 50vw;
+}
+.img {
+  /* display: flex;
+  text-align: center;
+  justify-content: right; */
+  padding: 1.5rem;
+  width: 300px;
+  height: 300px;
+}
+
+#txt {
+  width: 300px;
+  height: 300px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #e60f0f;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
